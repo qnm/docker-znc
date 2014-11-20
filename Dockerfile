@@ -4,7 +4,7 @@
 # 1. Install docker (http://docker.io)
 # 2. Checkout source: git clone http://github.com/shykes/docker-znc
 # 3. Build container: docker build .
-from	ubuntu:12.10
+from	ubuntu:14.10
 run	apt-get update
 run	apt-get install -q -y znc
 add	. /src
